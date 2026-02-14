@@ -58,12 +58,11 @@ no.addEventListener("click", () => {
 yes.addEventListener("click", () => {
   vid.style.display = "block";
   imgNea.src = "../Ktrit/resources/nea-2.jpg";
-  gif.src = "../Ktrit/resources/cat-heart.gif"; // gif credit: https://tenor.com/view/peach-cat-kiss-animated-love-mwah-gif-25743978
+  gif.src = "../Ktrit/resources/cat-heart.gif";
   text.innerHTML = "Knew it babe 😘";
-  yes.innerHTML =
-    '<a href="https://www.facebook.com/share/1L9rgXDw5N/?mibextid=wwXIfr">Message me</a>'; // inside the " " put your social media profile link
   yes.style.height = "90%";
   yes.style.width = "96%";
+  yes.innerHTML = "Message Me <br> FB: Sea Borin";
   no.style.display = "none";
   setTimeout(() => {
     vid.style.display = "none";
