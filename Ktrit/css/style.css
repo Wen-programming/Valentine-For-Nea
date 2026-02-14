@@ -47,6 +47,7 @@ html {
   display: none;
   width: 50%;
   height: 50%;
+
   object-fit: cover;
 }
 
@@ -142,8 +143,12 @@ a {
     height: 80%;
     width: 98%;
   }
+  .nea {
+    height: 90%;
+    width: 40%;
+  }
   .gif {
     height: 90%;
-    width: 80%;
+    width: 40%;
   }
 }
